@@ -116,7 +116,3 @@ If you use this code, please cite the accompanying manuscript:
 ```
 
 Please update the BibTeX entry with the final venue, year, DOI, and proceedings information once the paper is formally published.
-
-## License
-
-No license file was included in the supplied repository. Before making the repository public, add the license that is appropriate for your institution and intended reuse terms. Without an explicit license, third parties generally do not receive permission to reuse or redistribute the code.
