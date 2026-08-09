@@ -1,8 +1,15 @@
 # GraphSVR
+**GraphSVR: q-Space–Aware Graph-Based Slice-to-Volume Registration for Diffusion MRI**
 
-**GraphSVR: q-Space–Aware Graph-Based Slice-to-Volume Registration for Diffusion MRI**  
-Noga Kertes, Alex M. Bronstein, and Moti Freiman — Technion, Israel Institute of Technology
+**Authors:** Noga Kertes¹˒², Daphna Link Sourani¹˒², Alex M. Bronstein³˒⁴, and Moti Freiman¹˒²
 
+**Affiliations:**  
+¹ Faculty of Biomedical Engineering, Technion – Israel Institute of Technology, Haifa, Israel  
+² The May-Blum-Dahl MRI Research Center, Faculty of Biomedical Engineering, Technion – Israel Institute of Technology, Haifa, Israel  
+³ The Taub Faculty of Computer Science, Technion – Israel Institute of Technology, Haifa, Israel  
+⁴ Institute of Science and Technology Austria (ISTA), Klosterneuburg, Austria  
+
+**Correspondence:** noga.kertes@campus.technion.ac.il
 GraphSVR is a q-space-aware graph-based framework for 4D slice-to-volume registration (SVR) in diffusion MRI. Slice groups are represented as graph nodes, while graph edges encode relationships in acquisition time, slice location, and diffusion encoding. A graph neural network estimates stack-wise rigid motion using subject-specific, self-supervised (zero-shot) optimization against an anatomical reference image.
 
 The implementation in this repository is the code accompanying the GraphSVR paper. The default command-line parameters match the experimental configuration described in the manuscript where possible (including `k=4`, two attention layers, four heads, hidden size 64, batch size 120, learning rate `1e-3`, and up to 400 epochs).
