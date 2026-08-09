@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+sanity_check.ipynb
+
+# Environments / editors
+.env
+.venv/
+.vscode/
+.idea/
+
+# Experiment outputs
+runs/
+logs/
+*.tfevents.*
+
+# OS files
+.DS_Store
+Thumbs.db

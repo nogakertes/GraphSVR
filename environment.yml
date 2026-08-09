@@ -1,0 +1,20 @@
+name: graphsvr
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.26,<3
+  - nibabel>=5.2,<6
+  - dipy>=1.10,<2
+  - tensorboard>=2.16,<3
+  - tqdm>=4.66,<5
+  - pip:
+      # CUDA 11.8 build. For CPU-only or another CUDA version, install the
+      # matching PyTorch build first, then install torch-geometric.
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - torch==2.7.1+cu118
+      - torch-geometric==2.7.0
