@@ -114,5 +114,3 @@ If you use this code, please cite the accompanying manuscript:
   note         = {GraphSVR}
 }
 ```
-
-Please update the BibTeX entry with the final venue, year, DOI, and proceedings information once the paper is formally published.
